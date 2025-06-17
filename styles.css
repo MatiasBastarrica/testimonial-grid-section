@@ -17,4 +17,103 @@
   --fs-min: 0.813rem;
   --fw-500: 500;
   --fw-600: 600;
+
+  --breakpoint-mobile: 23.438em;
+  --breakpoint-desktop: 90em;
+}
+
+/* ### CSS RESET ### */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* ### UTILITIES ### */
+
+.bg-purple {
+  background-color: var(--purple-500);
+  color: var(--purple-50);
+}
+
+.bg-grey {
+  background-color: var(--grey-500);
+  color: var(--grey-100);
+}
+
+.bg-white {
+  background-color: var(--white);
+  color: var(--grey-400);
+}
+
+.bg-black {
+  background-color: var(--black);
+  color: var(--grey-200);
+}
+
+.text-white {
+  color: white;
+}
+
+.text-grey {
+  color: var(--grey-500);
+}
+
+.text-grey-light {
+  color: var(--grey-200);
+}
+
+.border-purple-dark {
+  border: 2px solid var(--purple-500);
+}
+
+.border-purple-light {
+  border: 2px solid var(--purple-300);
+}
+
+.bold {
+  font-weight: var(--fw-600);
+}
+
+.stack > * + * {
+  margin-top: 1em;
+}
+
+/* ### GENERAL STYLING ### */
+
+body {
+  font-family: var(--ff-barlow);
+  font-weight: var(--fw-500);
+  padding: 4em 2em;
+  background-color: var(--grey-100);
+}
+
+.grid {
+  display: grid;
+  gap: 2em;
+}
+
+.grid > article {
+  border-radius: 0.6rem;
+  padding: 1.5em;
+  min-width: 40ch;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.header .profile-img {
+  border-radius: 100px;
+  overflow: hidden;
+  width: 2.2rem;
 }
