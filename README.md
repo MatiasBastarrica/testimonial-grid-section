@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/testimonials-grid-section-using-grid-and-fluid-typography-ONqjuQ2S-9)
 - Live Site URL: [Live](https://matiasbastarrica.github.io/testimonial-grid-section/)
 
 ## My process
